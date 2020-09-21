@@ -1,7 +1,7 @@
 {
-  "name": "mocha-webpack",
+  "name": "@jeremy-herman/mocha-webpack",
   "version": "2.0.0",
-  "description": "mocha cli with webpack support",
+  "description": "mocha cli with webpack support, fork of mocha-webpack",
   "bin": {
     "mocha-webpack": "./bin/mocha-webpack"
   },
