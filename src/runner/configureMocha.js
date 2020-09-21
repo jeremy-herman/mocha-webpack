@@ -17,10 +17,10 @@ export default function configureMocha(options: MochaWebpackOptions) {
   mocha.reporter(reporter, options.reporterOptions);
 
   // colors
-  mocha.useColors(options.colors);
+  mocha.color(options.color);
 
   // inline-diffs
-  mocha.useInlineDiffs(options.useInlineDiffs);
+  mocha.inlineDiffs(options.inlineDiffs);
 
 
   // slow <ms>
